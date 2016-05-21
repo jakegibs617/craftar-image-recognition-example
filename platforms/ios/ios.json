@@ -1,0 +1,59 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"CraftAR\"><param name=\"ios-package\" value=\"CraftARPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.catchoom.test"
+        },
+        "com.catchoom.craftar": {
+            "PACKAGE_NAME": "com.catchoom.test"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.catchoom.craftar/www/CraftARError.js",
+            "id": "com.catchoom.craftar.CraftARError",
+            "pluginId": "com.catchoom.craftar",
+            "clobbers": [
+                "CraftARError"
+            ]
+        },
+        {
+            "file": "plugins/com.catchoom.craftar/www/CraftARSDK.js",
+            "id": "com.catchoom.craftar.CraftARSDK",
+            "pluginId": "com.catchoom.craftar",
+            "clobbers": [
+                "CraftARSDK"
+            ]
+        },
+        {
+            "file": "plugins/com.catchoom.craftar/www/CraftARCloudRecognition.js",
+            "id": "com.catchoom.craftar.CraftARCloudRecognition",
+            "pluginId": "com.catchoom.craftar",
+            "clobbers": [
+                "CraftARCloudRecognition"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.2.1",
+        "com.catchoom.craftar": "2.0.0"
+    }
+}

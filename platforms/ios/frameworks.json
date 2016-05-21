@@ -1,0 +1,9 @@
+{
+    "AudioToolbox.framework": 1,
+    "CoreMedia.framework": 1,
+    "SystemConfiguration.framework": 1,
+    "AVFoundation.framework": 1,
+    "libstdc++.dylib": 1,
+    "libc++.dylib": 1,
+    "CoreLocation.framework": 1
+}
