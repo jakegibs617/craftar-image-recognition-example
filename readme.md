@@ -9,3 +9,6 @@ To be successful you would want to have the algorithm be based on hundreds of mi
 But if done by yourself you would want to custom label all the photos one by one if you wanted to have an edge over big data...
 
 -but that is simply my initial assessment of this software
+
+
+on second thought, I wonder if this only works well with photos... How would it do on real objects? 
